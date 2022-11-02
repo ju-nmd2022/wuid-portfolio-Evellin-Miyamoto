@@ -1,0 +1,77 @@
+* {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background-color: #ffddd2;
+}
+p,
+ul {
+  line-height: 2em;
+}
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  align-content: center;
+  padding: 50px 100px;
+  margin: 80px;
+  /* display: flex;
+    width: 100vw;
+    justify-content: space-evenly;
+    gap: 2rem; */
+}
+
+h1,
+h2,
+h3 {
+  color: #6d6875;
+  background-color: #ffcdb2;
+  display: inline;
+}
+h1:hover {
+  color: #b5838d;
+  text-decoration: underline dotted;
+}
+h3:hover {
+  color: #b5838d;
+  text-decoration: underline dotted;
+}
+.profile-image {
+  width: 90%;
+  height: min-content;
+  margin-left: 5em;
+  margin-right: 2.5em;
+  margin-bottom: 2.5em;
+  float: right;
+  border-radius: 15px;
+}
+.profile-image2 {
+  width: 90%;
+  margin-bottom: 2.5em;
+  margin-top: 2.5em;
+  margin-right: 1.5em;
+  margin-left: 1.5em;
+  border-radius: 30px;
+}
+
+.profile-image5 {
+  width: 70%;
+  margin-bottom: 2.5em;
+  margin-top: 2.5em;
+  margin-right: 1.5em;
+  margin-left: 1.5em;
+  border-radius: 15px;
+}
+.profile-image6 {
+  width: 70%;
+  margin-bottom: 2.5em;
+  margin-top: 2.5em;
+  margin-right: 1.5em;
+  margin-left: 1.5em;
+  border-radius: 15px;
+}
+
+.link:hover {
+  color: rgb(56, 231, 198);
+  transition: all 0.5s;
+}
