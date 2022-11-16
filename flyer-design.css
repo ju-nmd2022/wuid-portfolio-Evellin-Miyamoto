@@ -1,0 +1,61 @@
+* {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+html {
+  background-color: #f0d7dc;
+}
+p,
+ul {
+  line-height: 2em;
+}
+h1 {
+  color: #6d6875;
+}
+.info-flyer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 0px;
+}
+.image {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.info {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: left;
+}
+.options {
+  display: flex;
+  padding-bottom: 50px;
+}
+.home,
+.city,
+.projects,
+.aboutme {
+  margin: 20px;
+}
+a:hover {
+  color: #b7495f;
+  text-decoration: underline dotted;
+}
+h1:hover {
+  color: #b5838d;
+  text-decoration: underline dotted;
+}
+@media screen and (max-width: 900px) {
+  .info-flyer {
+    display: block;
+    padding: 0%;
+  }
+}
+@media screen and (max-width: 650px) {
+  .info-flyer {
+    display: block;
+  }
+  .info {
+    display: block;
+  }
+}

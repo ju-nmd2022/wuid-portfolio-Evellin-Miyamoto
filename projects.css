@@ -1,0 +1,77 @@
+* {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+html {
+  background-color: #f0d7dc;
+}
+
+p,
+ul {
+  line-height: 2em;
+}
+h1 {
+  color: #6d6875;
+  padding: 20px;
+}
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 0px;
+  align-content: center;
+  justify-content: space-around;
+  justify-self: center;
+  padding: 20px;
+}
+.works {
+  grid-column: 1;
+  grid-row: 1;
+  justify-items: center;
+}
+.image {
+  grid-column: 2;
+  justify-items: center;
+}
+img {
+  width: 500px;
+  border-radius: 10%;
+}
+
+.options {
+  display: flex;
+  padding-bottom: 50px;
+}
+.home,
+.city,
+.projects,
+.aboutme {
+  margin: 20px;
+}
+a:hover {
+  color: #b7495f;
+  text-decoration: underline dotted;
+}
+h1:hover {
+  color: #b5838d;
+  text-decoration: underline dotted;
+}
+@media screen and (max-width: 900px) {
+  .container {
+    display: block;
+    padding: 0%;
+  }
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 550px) {
+  .container {
+    display: block;
+    padding: 10%;
+    justify-content: center;
+  }
+  img {
+    width: 300px;
+  }
+}

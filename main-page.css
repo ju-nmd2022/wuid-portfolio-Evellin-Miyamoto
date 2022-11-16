@@ -1,0 +1,32 @@
+* {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+p,
+ul {
+  line-height: 2em;
+}
+
+body {
+  display: flex;
+  background-image: url("pattern-7455773_1920.png");
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+main {
+  border-radius: 10px;
+  padding: 15px 25px;
+  width: 100%;
+  max-width: none;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+h1 {
+  color: #ffddd2;
+}
+a:hover {
+  color: #b7495f;
+  text-decoration: underline dotted;
+}
